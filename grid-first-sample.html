@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrapグリッドレイアウト解説</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<h2>4:8のグリッド</h2>
+	</div>
+	<div class="row">
+		<div class="col-xs-4" style="background-color: #6666ff">グリッド4つ分の横幅</div>
+		<div class="col-xs-8" style="background-color: #66ff66">グリッド8つ分の横幅</div>
+	</div>
+	<div class="row">
+		<h2>4つ幅のグリッドを4つ置くと最後の1つは回り込む</h2>
+	</div>
+	<div class="row">
+		<div class="col-xs-4" style="background-color: #6666ff">グリッド4つ分の横幅</div>
+		<div class="col-xs-4" style="background-color: #66ff66">グリッド4つ分の横幅</div>
+		<div class="col-xs-4" style="background-color: #ff6666">グリッド4つ分の横幅</div>
+		<div class="col-xs-4" style="background-color: #ffff66">グリッド4つ分の横幅</div>
+	</div>
+	<div class="row">
+		<h2>オフセットの例</h2>
+	</div>
+	<div class="row">
+		<div class="col-xs-4" style="background-color: #6666ff">グリッド4つ分の横幅</div>
+		<div class="col-xs-7 col-xs-offset-1" style="background-color: #ff6666">グリッド7つ分の横幅+オフセット1</div>
+	</div>
+</div>
+</body>
+</html>
